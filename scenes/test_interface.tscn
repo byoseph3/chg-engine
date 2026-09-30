@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ce3j0a2huoyhk"]
+
+[ext_resource type="Script" uid="uid://7ydui773ki3d" path="res://core/world/world_sim.gd" id="1_4k8lk"]
+
+[node name="Node2D" type="Node2D" unique_id=1427319017]
+
+[node name="WorldSimulation" type="Node" parent="." unique_id=857374113]
+script = ExtResource("1_4k8lk")
+
+[node name="UI" type="Node2D" parent="." unique_id=1451542964]
